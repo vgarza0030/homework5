@@ -1,5 +1,6 @@
 <script setup>
-import MainCardSingle from './MainCardSingle';
+import MainCardSingle from './MainCardSingle.vue';
+
 
 
 </script>
