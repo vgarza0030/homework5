@@ -11,7 +11,7 @@
 
 <template>
     <RouterLink :TO="{NAME: 'CardDetail', params: {id: username}}">
-        <div class="border border-gray-500 rounded-1g shadow border-gray-400 h-full">
+        <div class="border border-gray-500 rounded-1g shadow h-full">
             <img class="object-fill h-480 w-960 rounded-t-lg" v-bind:src="faker.images.urlLoremFlickr({category: 'cats', height: 480, width: 960})" />
             <div class="p-4">
                 <p class="mb-2 text-2x1 font-bold">{{ firstname }}  {{ lastname }}</p>
